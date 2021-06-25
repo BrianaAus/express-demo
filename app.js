@@ -15,5 +15,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use('/movies', movieRouter);
-
+console.log('hello')
 module.exports = app;
